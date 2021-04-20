@@ -1,23 +1,24 @@
-=== Subpagelister ===
-Contributors: kimannwall, strangerstudios
+=== PWD Subpagelister ===
+Contributors: kimannwall, strangerstudios, ohlauren
 Tags: theme, shortcode, content, index, table of contents
 Requires at least: 4.0
 Tested up to: 5.2.2
-Stable tag: 1.0
+Stable tag: 0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Dynamic content organization with flexible display options.
 
 == Description ==
-
-Shows a list of subpages, with display options for content or excerpts, buttons and links, featured images, and layout. Enter the shortcode [subpagelist] in any page to generate the list. An example shortcode and all shortcode attributes are displayed below:
+Fork of Subpagelister.
+Shows a list of subpages, with display options for content or excerpts, buttons and links, featured images, and layout. Enter the shortcode [subpages] in any page to generate the list. An example shortcode and all shortcode attributes are displayed below:
 
 = Example Subpagelist Shortcode =
-[subpagelist exclude="3,5" layout="3col" link="true" orderby="title" order="ASC" show="excerpt" thumbnail="thumbnail"]
+[subpages exclude="3,5" heading_level="h4" layout="3col" link="true" orderby="title" order="ASC" show="excerpt" thumbnail="thumbnail"]
 
 = Shortcode Attributes Include: =
 * exclude: A comma-separated list of the page IDs to exclude from display. (default: none)
+* heading_level: Tag to wrap page title in (default: h3)
 * layout: Set this attribute if you would like to list the pages in columns; accepts "2col", "3col" or "4col". (default: 1 column)
 * link: Hyperlink the page title; accepts "true" or "false". (default: true)
 * link_text: The "more link" text to display. Accepts "your custom text". (default: "(more...)")
@@ -56,5 +57,5 @@ For help setting up and configuring the Subpagelister plugin, please refer to [d
 
 == Changelog ==
 
-= 1.0 =
-Initial Release
+= 0.0 =
+Fork from Subpagelister
